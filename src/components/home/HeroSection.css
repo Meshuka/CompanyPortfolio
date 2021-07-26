@@ -1,0 +1,66 @@
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1; 
+}
+/* z-index makes sure that the video won't be covering other components  */
+
+.hero-block{
+    background: url("/src/components/images/bg-hero.jpg");
+    background-position: 50% 100%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.hero-block .container-fluid{
+    display: block !important;
+    width: 100%;
+    display: inline-block;
+}
+
+.container-fluid .content {
+    margin-top: 60px;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 200px 0 70px;
+  }
+ 
+.hero-block h3{
+    font-size: 30px;
+    /* margin-top: -100px; */
+    margin: 0 0 30px;
+}
+
+.hero-block p{
+    margin-top: 4px;
+    color:  rgb(102, 94, 94);;
+    font-size: 18px;
+} 
+.hero-button button{
+    text-align: center;
+    width: 150px;
+}
+
+/* @media screen and (max-width: 960px){   
+.hero-container h1{
+    font-size: 70px;
+    margin-top: -150px;
+}
+}
+
+@media screen and (max-width: 768px){
+    .hero-container h1{
+        font-size: 50px;
+        margin-top: -100px;
+    }
+
+    .hero-container p {
+        font-size: 30px;
+    }
+} */

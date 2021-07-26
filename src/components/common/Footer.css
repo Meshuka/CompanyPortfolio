@@ -1,0 +1,44 @@
+
+/* footer */
+
+.ant-layout-footer{
+    background: black !important;
+    color: white !important;
+    padding: 60px 0 !important;
+    text-align: center;
+  }
+  
+  .footer .logo {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+  }
+  
+  .footer .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-size: 24px;
+  }
+  
+  .footer .socials li{
+    margin: 0 20px;
+  }
+  
+  .footer .socials a{
+    color: white;
+  }
+  
+  .footer .socials a:hover{
+    color: aquamarine;
+  }
+  
+  .footer .fas {
+    color: #1890ff;
+    font-size: 28px;
+    margin: 0 5px 0 0;
+  }
+  
+  

@@ -1,0 +1,101 @@
+/* css of components as given in ant-design docs */
+@import '~antd/dist/antd.css'; 
+/* general */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+/* The .container-fluid class provides a full width container, spanning the entire width of the viewport */
+.container-fluid{
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.ant-layout {
+  background: #fff !important;
+}
+/* !important overrides all previous CSS */
+/* here mainLayout is the className of our header component */
+.mainLayout .ant-layout-header {
+  background: #f8f8f8;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+}
+
+/* for all the title in different sections of the website 
+padding: top right bottom left
+same with margin*/
+
+.titleHolder{
+  text-align: center;
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0 0 40px;
+}
+
+.titleHolder h2{
+  font-size: 28px;
+  margin: 0;
+}
+.bgGrey{
+  background: grey;
+}
+/* block (also common to all the sections of the page*/
+
+.block{
+  padding: 60px 0;
+  border-bottom: 1px solid black;
+}
+
+/* about us page css */
+
+.aboutBlock .contentHolder{
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.aboutBlock .icon{
+  font-size: 40px;
+  color: rgb(71, 63, 63);
+  margin: 0 0 10px;
+}
+
+.aboutBlock .about-content{
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* portfolio */
+
+.portfolioBlock .portfolio-picture{
+  text-align: center;
+  max-width: 740px;
+}
+
+
+/*faqs */
+
+/* .faqBlock .ant-collapse{
+  margin: 0 0 40px;
+} */
+
+.faqBlock .quicksupport{
+  text-align: center;
+  max-width: 740px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.faqBlock .fas{
+  margin: 0 10px 0 0;
+}
+
+.contactBlock{
+  text-align: center;
+  max-width: 740px;
+  margin: auto;
+}

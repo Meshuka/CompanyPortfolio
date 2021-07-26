@@ -1,0 +1,48 @@
+.ant-layout-header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+.header .ant-anchor-wrapper {
+    background: none;
+  }
+
+.header .ant-anchor {
+    display: flex;
+    background-color: #f8f8f8;
+  }
+.header .ant-anchor-ink{
+  display: none;
+}
+  .header .ant-menu {
+    border: 0;
+    background: none !important;
+  }
+
+
+  .header .logo {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  .header .logo .fa {
+    color: #1890ff;
+    margin: 0 5px 0 0;
+    font-size: 28px;
+  }
+
+  .header .logo a{
+      text-decoration: none;
+  }
+  
+  
