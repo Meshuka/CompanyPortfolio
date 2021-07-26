@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/CompanyPortfolio/static/css/main.3920e0fe.chunk.css",
+    "main.js": "/CompanyPortfolio/static/js/main.4df7d465.chunk.js",
+    "main.js.map": "/CompanyPortfolio/static/js/main.4df7d465.chunk.js.map",
+    "runtime-main.js": "/CompanyPortfolio/static/js/runtime-main.92ef8db0.js",
+    "runtime-main.js.map": "/CompanyPortfolio/static/js/runtime-main.92ef8db0.js.map",
+    "static/css/2.ba8a8a05.chunk.css": "/CompanyPortfolio/static/css/2.ba8a8a05.chunk.css",
+    "static/js/2.7262314f.chunk.js": "/CompanyPortfolio/static/js/2.7262314f.chunk.js",
+    "static/js/2.7262314f.chunk.js.map": "/CompanyPortfolio/static/js/2.7262314f.chunk.js.map",
+    "index.html": "/CompanyPortfolio/index.html",
+    "static/css/2.ba8a8a05.chunk.css.map": "/CompanyPortfolio/static/css/2.ba8a8a05.chunk.css.map",
+    "static/css/main.3920e0fe.chunk.css.map": "/CompanyPortfolio/static/css/main.3920e0fe.chunk.css.map",
+    "static/js/2.7262314f.chunk.js.LICENSE.txt": "/CompanyPortfolio/static/js/2.7262314f.chunk.js.LICENSE.txt",
+    "static/media/HeroSection.css": "/CompanyPortfolio/static/media/bg-hero.2e6d5a35.jpg",
+    "static/media/clean-design.728069da.jpg": "/CompanyPortfolio/static/media/clean-design.728069da.jpg",
+    "static/media/testing.54b1f7a6.pdf": "/CompanyPortfolio/static/media/testing.54b1f7a6.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92ef8db0.js",
+    "static/css/2.ba8a8a05.chunk.css",
+    "static/js/2.7262314f.chunk.js",
+    "static/css/main.3920e0fe.chunk.css",
+    "static/js/main.4df7d465.chunk.js"
+  ]
+}
